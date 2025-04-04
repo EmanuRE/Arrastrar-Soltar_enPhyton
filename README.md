@@ -11,7 +11,7 @@ En este proyecto se implementa un sistema interactivo que permite abrir un visor
 - Se configura la resolución para adaptar la cámara
 
 ## Requisitos del sistema
- - Phyton 3x (compatible con MediaPipe) - 3.7 o superior
+ - Phyton 3.x (compatible con MediaPipe) - 3.7 o superior
  - OpenCV (pip install opencv-python)
  - MediaPipe (pip install mediapipe)
  - NumPy (pip install numpy)
@@ -39,8 +39,8 @@ En este proyecto se implementa un sistema interactivo que permite abrir un visor
 
 - Configuraciones
     - Se inicia MediaPipe
-    - Se añade parametros del objeto virtual
-    - se Configura la camara
+    - Se añaden parametros del objeto virtual
+    - se Configura la cámara
 
 - Se usa un bucle principal para lo siguiente:
     - Capturar los fotogramas
@@ -52,7 +52,7 @@ En este proyecto se implementa un sistema interactivo que permite abrir un visor
 ## Notas del sistema
     - Este sistema tiene una mejro función cuando hay una buena iluminación en el fondo
     - Es recomendable usar el programa donde no existan fondos muy complejos o con diseños que afecten la funcionalidad
-    - Se puede ajustar la sensibilidad de identificar la pinza, modificando el valor de la distancia entre ambos dedos, en este momento tiene 50px
+    - Se puede ajustar la sensibilidad de identificar la pinza, modificando el valor de la distancia entre ambos dedos. En este momento tiene 50px
     
 
 
